@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ProductThumbnail renders correctly 1`] = `
+<article
+  className="ProductThumbnail"
+>
+  <img
+    alt="Striped shirt"
+    className="ProductThumbnail--img"
+    src="products/product-1.jpg"
+  />
+  <span
+    className="ProductThumbnail--flag-sale"
+  >
+    Sale
+  </span>
+  <section
+    className="ProductThumbnail--meta"
+  >
+    <p
+      className="ProductThumbnail--name"
+    >
+      Striped shirt
+    </p>
+    <p
+      className="ProductThumbnail--price"
+    >
+      $18.88
+    </p>
+  </section>
+</article>
+`;
