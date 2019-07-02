@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: Gallery renders correctly 1`] = `
+<div
+  className="Gallery"
+>
+  <header
+    className="Gallery__header"
+  >
+    <h1
+      className="Gallery__title"
+    >
+      Women's tops
+    </h1>
+    <select
+      aria-label="filter"
+      className="Gallery__filter"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value=""
+      >
+        Filter by size
+      </option>
+      <option
+        value="XS"
+      >
+        XS
+      </option>
+      <option
+        value="S"
+      >
+        S
+      </option>
+      <option
+        value="M"
+      >
+        M
+      </option>
+      <option
+        value="L"
+      >
+        L
+      </option>
+      <option
+        value="XL"
+      >
+        XL
+      </option>
+    </select>
+  </header>
+  <main
+    className="Gallery__grid"
+  />
+</div>
+`;
