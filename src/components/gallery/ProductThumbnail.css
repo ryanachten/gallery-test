@@ -8,11 +8,11 @@
   width: 320px;
 }
 
-.ProductThumbnail--img {
+.ProductThumbnail__img {
   width: 100%;
 }
 
-.ProductThumbnail--meta {
+.ProductThumbnail__meta {
   align-items: flex-end;
   display: flex;
   flex-flow: row wrap;
@@ -20,34 +20,34 @@
   width: 100%;
 }
 
-.ProductThumbnail--flag {
+.ProductThumbnail__flag {
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
 
-.ProductThumbnail--flag-sale {
+.ProductThumbnail__flag--sale {
   background: #cc3333;
   color: white;
   margin-bottom: 0.31em;
   padding: 0.75em 1em;
 }
 
-.ProductThumbnail--flag-exclusive {
+.ProductThumbnail__flag--exclusive {
   background: #009900;
   color: white;
   margin-bottom: 0.31em;
   padding: 0.75em 1em;
 }
 
-.ProductThumbnail--name {
+.ProductThumbnail__name {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0;
   max-width: 50%;
 }
 
-.ProductThumbnail--price {
+.ProductThumbnail__price {
   font-size: 2.25em;
   font-weight: bold;
   margin: 0;

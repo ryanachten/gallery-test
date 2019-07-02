@@ -18,17 +18,17 @@ const ProductThumbnail = (props: Props) => {
   return (
     <article className="ProductThumbnail" key={index}>
       <img
-        className="ProductThumbnail--img"
+        className="ProductThumbnail__img"
         src={`products/${productImage}`}
         alt={productName}
       />
-      {isSale && <span className="ProductThumbnail--flag-sale">Sale</span>}
+      {isSale && <span className="ProductThumbnail__flag--sale">Sale</span>}
       {isExclusive && (
-        <span className="ProductThumbnail--flag-exclusive">Exclusive</span>
+        <span className="ProductThumbnail__flag--exclusive">Exclusive</span>
       )}
-      <section className="ProductThumbnail--meta">
-        <p className="ProductThumbnail--name">{productName}</p>
-        <p className="ProductThumbnail--price">{price}</p>
+      <section className="ProductThumbnail__meta">
+        <p className="ProductThumbnail__name">{productName}</p>
+        <p className="ProductThumbnail__price">{price}</p>
       </section>
     </article>
   );

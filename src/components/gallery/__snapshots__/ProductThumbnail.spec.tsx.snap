@@ -6,24 +6,24 @@ exports[`Component: ProductThumbnail renders correctly 1`] = `
 >
   <img
     alt="Striped shirt"
-    className="ProductThumbnail--img"
+    className="ProductThumbnail__img"
     src="products/product-1.jpg"
   />
   <span
-    className="ProductThumbnail--flag-sale"
+    className="ProductThumbnail__flag--sale"
   >
     Sale
   </span>
   <section
-    className="ProductThumbnail--meta"
+    className="ProductThumbnail__meta"
   >
     <p
-      className="ProductThumbnail--name"
+      className="ProductThumbnail__name"
     >
       Striped shirt
     </p>
     <p
-      className="ProductThumbnail--price"
+      className="ProductThumbnail__price"
     >
       $18.88
     </p>
