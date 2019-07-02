@@ -1,0 +1,22 @@
+.Gallery__header {
+  align-items: center;
+  background-color: #def1f4;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.31em;
+  padding: 0.31em;
+}
+
+.Gallery__title {
+  font-size: 2.25em;
+}
+
+.Gallery__filter {
+  height: fit-content;
+}
+
+.Gallery__grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
