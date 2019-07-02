@@ -1,8 +1,12 @@
 # Gallery Test
 
-## Available Scripts
+## Usage
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs project dependancies (be sure to run this prior to running `start`, `test`, or `build`)
 
 ### `npm start`
 
